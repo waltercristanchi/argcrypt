@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <title>Desafio-Clase-9</title>
+</head>
+
+<body>
+  <header>
+    <div id="menuButton" class="menuButton" alt=""></div>
+    <div id="menu" class="menu">
+      <ul>
+        <li>Cotizacion</li>
+        <li>¿Que son las criptos?</li>
+        <li>Mi lista</li>
+
+      </ul>
+      <div class="buttons">
+        <button class="button">Iniciar Sesion</button>
+        <button class="button">Registrarse</button>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="search">
+      <input id="searchInput" type="text" placeholder="Buscar...">
+      <div id="loader" class="loader"></div>
+      <button class="button" id="searchButton">Buscar</button>
+    </div>
+    <div id="list" class="list">
+
+
+    </div>
+    <button class="button" onclick="loadMore()">Cargar Mas</button>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

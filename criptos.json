@@ -1,0 +1,27 @@
+  [
+    {
+      "nombre": "Bitcoin",
+      "precio": 40000,
+      "fav": "no-fav"
+    },
+    {
+      "nombre": "Ethereum",
+      "precio": 2500,
+      "fav": "no-fav"
+    },
+    {
+      "nombre": "Theter",
+      "precio": 1.02,
+      "fav": "no-fav"
+    },
+    {
+      "nombre": "BinanceCoin",
+      "precio": 385.81,
+      "fav": "fav"
+    },
+    {
+      "nombre": "ADA",
+      "precio": 1.74,
+      "fav": "fav"
+    }
+  ]
